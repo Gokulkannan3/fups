@@ -21,7 +21,8 @@ export default function Login() {
         </form>
         <p className='mt-8 md:text-2xl items-start font-sans	flex'>By continuing, I agree to the<Link to='' className='text-blue-700 hover:text-blue-500 underline underline-blue-700 flex ml-2'>  UPS Technology Agreement <img src={mink} alt='sample' className='h-3 ml-2 mt-2 w-3 text-blue-500'/></Link></p>
           <div className='flex flex-row items:center mt-2'>
-            <button className="bg-yellow-400 md:h-10 md:w-18 hover:bg-yellow-300 text-black font-semibold py-1 px-4 rounded-3xl w-40 h-8 text-1/2xl mt-3"><Link to='/fetch'>Continue</Link></button>
+                     <Link to='/fetch'><button className="bg-yellow-400 md:h-10 md:w-18 hover:bg-yellow-300 text-black font-semibold py-1 px-4 rounded-3xl w-40 h-8 text-1/2xl mt-3">Continue</button></Link>
+
             <h1 className='md:text-2xl  translate-y-4 ml-4'>Forgot Username/Password</h1>
           </div>
           <h1 className="md:text-3xl text-1xl font-semibold mt-4" >Or log in using one of these sites</h1>
